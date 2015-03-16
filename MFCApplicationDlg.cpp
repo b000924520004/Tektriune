@@ -300,6 +300,7 @@ void CMFCApplicationDlg::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollB
 	SetScrollPos(SB_HORZ,m_nScrollPos,TRUE);
 	ScrollWindow(-nDelta,0);
 	CDialog::OnHScroll(nSBCode, nPos, pScrollBar);
+	TRACE("");
 }
 
 void CMFCApplicationDlg::OnSize(UINT nType, int cx, int cy) 
