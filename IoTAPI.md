@@ -1,6 +1,4 @@
-# CoreService
-
-
+# CoreServiceAzure
 
 - [CoreAPI](#coreapi)
   - [IoTAPI (JSON-RPC 2.0)](#IoTAPI (JSON-RPC 2.0))
